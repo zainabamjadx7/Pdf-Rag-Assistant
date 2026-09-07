@@ -111,7 +111,7 @@ Question:
 """
                     chat_completion = client.chat.completions.create(
                         messages=[{"role": "user", "content": prompt}],
-                       model="ollama launch claude --model llama3.1"
+                       model="llama-3.3-70b-versatile"
                     )
                     
                     st.markdown("### Answer")
